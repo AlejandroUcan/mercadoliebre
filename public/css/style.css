@@ -56,8 +56,8 @@ form div input { width: 100%; }
 .buttons button { margin: 3px; }
 
 /* Transición */
-.descripciones:hover { visibility: visible; color: #39b54a;
-    transition-property: visibility, color;
+.descripciones:hover { font-size: xx-large; color: #39b54a;
+    transition-property: font-size, color;
     transition-duration: 2s;
 }
 .button-submit:hover { background-color:#0022AA;
@@ -68,6 +68,7 @@ form div input { width: 100%; }
     transition-property: border;
     transition-duration: 2s;
 }
+
 
 /* Puntos de corte*/
 @media (min-width: 361px) {
@@ -97,7 +98,10 @@ form div input { width: 100%; }
     .login-navbar { display: flex; justify-content: end; font-size: 8px; width: 50%; }
     .login-navbar li { margin: 2px; padding: 1px; }
 
-    form div { width: 60%;}
+    .descripciones { visibility: visible; }
+
+    form { width: 60%;}
+
 }
 @media (min-width: 769px) {
     /* Laptop */
@@ -108,7 +112,7 @@ form div input { width: 100%; }
     .login-navbar li { font-size: 14px; }
     .box { width: 20%;}
 
-    form div { width: 45%;}
+    form { width: 45%;}
 
     .footer-elements { display: flex; justify-content: center; align-items: center; margin: 9px; padding: 5px; }
     .footer-elements div { width: 33%; }
